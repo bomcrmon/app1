@@ -4,7 +4,7 @@ import Calendar from './class-components'
 import Banner from './banner'
 import {Calculator} from './calculator'
 import {Calculator2} from './calculator'
-
+import {EventData2} from './event-data'
 
 function App() {
     const divStyle={
@@ -15,17 +15,17 @@ function App() {
     }
     return ( 
         <>
-            
-            <Header/>
+            {/* <Header/>
             <p><center><Calendar/></center></p>
             <Content/>
-            {/* <h3 style={divStyle}> Hello World 
+            <h3 style={divStyle}> Hello World 
                 <br/> สวัดดีชาวโลก 
-            </h3> */}
+            </h3>
             <Footer/>
             <Banner/>
             <Calculator/> 
-            <Calculator2/> 
+            <Calculator2/>  */}
+            <EventData2/>
         </>
     );
 }
