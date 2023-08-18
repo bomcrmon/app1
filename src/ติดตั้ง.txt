@@ -1,0 +1,6 @@
+คำสั้ง 
+1. npm install
+2. npm i tar
+3. npm start
+
+        
