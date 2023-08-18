@@ -1,6 +1,8 @@
+
 import React from 'react'
 import { Header, Content, Footer } from './func-components'
 import Calendar from './class-components'
+import Banner from './banner'
 
 function App() {
     const divStyle={
@@ -19,6 +21,7 @@ function App() {
                 <br/> สวัดดีชาวโลก 
             </h3> */}
             <Footer/>
+            <Banner/>
         </>
     );
 }
