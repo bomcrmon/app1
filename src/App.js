@@ -7,6 +7,8 @@ import {Calculator2} from './calculator'
 import {EventData2,Table} from './event-data'
 import RefsFunc from './refs-func'
 import RefsArray from './refs-array'
+import MessageBox from './state-func'
+
 
 function App() {
     const divStyle={
@@ -29,8 +31,9 @@ function App() {
             <Calculator2/> 
             <EventData2/>
             <Table/> 
-            <RefsFunc/>  */}
-            <RefsArray/> 
+            <RefsFunc/> 
+            <RefsArray/>  */}
+            <MessageBox/> 
         </>
     );
 }
