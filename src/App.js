@@ -5,6 +5,7 @@ import Banner from './banner'
 import {Calculator} from './calculator'
 import {Calculator2} from './calculator'
 import {EventData2,Table} from './event-data'
+import RefsFunc from './refs-func'
 
 function App() {
     const divStyle={
@@ -24,9 +25,10 @@ function App() {
             <Footer/>
             <Banner/>
             <Calculator/> 
-            <Calculator2/>  */}
+            <Calculator2/> 
             <EventData2/>
-            <Table/> 
+            <Table/>  */}
+            <RefsFunc/> 
         </>
     );
 }
