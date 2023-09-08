@@ -1,8 +1,8 @@
 import React from 'react';
-import { useContext } from './context';
+import { userContext } from './context';
 
 export default function Content2() {
-    let [user, setUser] = React.useState(''); // ใช้ useContext เพื่อรับค่า user และ setUser จาก context
+    let [user, setUser] = React.useContext(userContext); // ใช้ useContext เพื่อรับค่า user และ setUser จาก context
 
     const contentStyle = {
         backgroundColor: '#ddd',
