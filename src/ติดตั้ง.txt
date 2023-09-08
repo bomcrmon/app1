@@ -1,6 +1,12 @@
-คำสั้ง 
+คำสั้ง ติดตั้ง
 1. npm install
 2. npm i tar
 3. npm start
+
+            
+แก้ปัญหา Content
+1. remove node_module
+2. npm install
+3. npm run bulid
 
         
