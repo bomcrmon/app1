@@ -8,7 +8,7 @@ export default function Home() {
                 <br/>
             แต่ท่านต้องเป็น <a href="/member">สมาชิก</a> จึงจะ
                 สั่งซื้อได้<br/>
-            หากมีข้อสงสัย กรุณา <a href="/contact">สมาชิก</a>
+            หากมีข้อสงสัย กรุณา <a href="/contact">ติดต่อเรา</a>
         </p>
     )
 }
